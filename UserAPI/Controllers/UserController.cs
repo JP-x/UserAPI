@@ -106,7 +106,7 @@ namespace UserAPI.Controllers
         /// </summary>
         /// <returns></returns>
         [HttpGet]
-        [Route("Commentors")]
+        [Route("Commenters")]
         public async Task<IEnumerable<UserDTO>> GetUserEngagementAsync()
         {
             try
